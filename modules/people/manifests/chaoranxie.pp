@@ -17,7 +17,6 @@ class people::chaoranxie {
   include better_touch_tools
 
   include zsh
-  include vim
   include pow
   include git
   include nginx
