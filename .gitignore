@@ -9,4 +9,6 @@
 /tmp
 /shared/*
 !/shared/README.md
+/vendor/*
 /vendor/gems/
+Puppetfile.lock
