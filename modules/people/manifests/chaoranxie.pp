@@ -21,9 +21,9 @@ class people::chaoranxie {
   include git
   include nginx
   include python
+  include python::virtualenvwrapper
   include tmux
   include graphviz
-  include python::virtualenvwrapper
 
   $home     = "/Users/${::boxen_user}"
   $my       = "${home}/my"
