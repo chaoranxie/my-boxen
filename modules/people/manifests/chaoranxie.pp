@@ -23,4 +23,14 @@ class people::chaoranxie {
   include python
   include tmux
   include graphviz
+  include python::virtualenvwrapper
+
+  $home     = "/Users/${::boxen_user}"
+  $my       = "${home}/my"
+  $dotfiles = "${my}/dotfiles"
+
+  repository { $dotfiles:
+    source  => 'chaoranxie/dotfiles',
+  }
+
 }
